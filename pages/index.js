@@ -1,6 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router';
+
+// function component to write data 
+async function WriteData(){
+
+  const router = useRouter();
+
+  async function write(){
+    let obj = {
+      name : "Ajay",
+      password : "9hdjfh8ug"
+    }
+  }
+}
 
 export default function Home() {
   return (
